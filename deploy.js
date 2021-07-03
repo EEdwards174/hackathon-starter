@@ -136,7 +136,7 @@ function sshConnect() {
       }
     })
     .then(function() {
-      console.log('DEPLOYMENT COMPLETE! Test message');
+      console.log('DEPLOYMENT COMPLETE!');
       process.exit(0);
     })
     .catch(e => {

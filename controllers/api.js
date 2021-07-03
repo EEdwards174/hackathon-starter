@@ -124,7 +124,7 @@ exports.getScraping = (req, res, next) => {
 exports.getGithub = async (req, res, next) => {
   const github = new Octokit();
   try {
-    const { data: repo } = await github.repos.get({ owner: 'sahat', repo: 'hackathon-starter' });
+    const { data: repo } = await github.repos.get({ owner: 'sahat', repo: 'riot-express-todo-list' });
     res.render('api/github', {
       title: 'GitHub API',
       repo

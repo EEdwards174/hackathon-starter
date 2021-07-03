@@ -1,12 +1,12 @@
-![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
+![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/riot-express-todo-list-logo.jpg)
 Hackathon Starter
 =======================
 
-[![Dependency Status](https://david-dm.org/sahat/hackathon-starter/status.svg?style=flat)](https://david-dm.org/sahat/hackathon-starter) [![devDependencies Status](https://david-dm.org/sahat/hackathon-starter/dev-status.svg)](https://david-dm.org/sahat/hackathon-starter?type=dev) [![Build Status](https://travis-ci.org/sahat/hackathon-starter.svg?branch=master)](https://travis-ci.org/sahat/hackathon-starter) [![Join the chat at https://gitter.im/sahat/hackathon-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sahat/hackathon-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dependency Status](https://david-dm.org/sahat/riot-express-todo-list/status.svg?style=flat)](https://david-dm.org/sahat/riot-express-todo-list) [![devDependencies Status](https://david-dm.org/sahat/riot-express-todo-list/dev-status.svg)](https://david-dm.org/sahat/riot-express-todo-list?type=dev) [![Build Status](https://travis-ci.org/sahat/riot-express-todo-list.svg?branch=master)](https://travis-ci.org/sahat/riot-express-todo-list) [![Join the chat at https://gitter.im/sahat/riot-express-todo-list](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sahat/riot-express-todo-list?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Live Demo**: https://hackathon-starter.walcony.com
+**Live Demo**: https://riot-express-todo-list.walcony.com
 
-Jump to [What's new?](https://github.com/sahat/hackathon-starter/blob/master/CHANGELOG.md)
+Jump to [What's new?](https://github.com/sahat/riot-express-todo-list/blob/master/CHANGELOG.md)
 
 A boilerplate for **Node.js** web applications.
 
@@ -23,13 +23,13 @@ if for example you are only interested in **Sign in with Google** authentication
 
 ### Testimonials
 
-> [**“Nice! That README alone is already gold!”**](https://www.producthunt.com/tech/hackathon-starter#comment-224732)<br>
+> [**“Nice! That README alone is already gold!”**](https://www.producthunt.com/tech/riot-express-todo-list#comment-224732)<br>
 > — Adrian Le Bas
 
-> [**“Awesome. Simply awesome.”**](https://www.producthunt.com/tech/hackathon-starter#comment-224966)<br>
+> [**“Awesome. Simply awesome.”**](https://www.producthunt.com/tech/riot-express-todo-list#comment-224966)<br>
 > — Steven Rueter
 
-> [**“I'm using it for a year now and many projects, it's an awesome boilerplate and the project is well maintained!”**](https://www.producthunt.com/tech/hackathon-starter#comment-228610)<br>
+> [**“I'm using it for a year now and many projects, it's an awesome boilerplate and the project is well maintained!”**](https://www.producthunt.com/tech/riot-express-todo-list#comment-228610)<br>
 > — Kevin Granger
 
 > **“Small world with Sahat's project. We were using his hackathon starter for our hackathon this past weekend and got some prizes. Really handy repo!”**<br>
@@ -121,7 +121,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone https://github.com/sahat/hackathon-starter.git myproject
+git clone https://github.com/sahat/riot-express-todo-list.git myproject
 
 # Change directory
 cd myproject
@@ -564,7 +564,7 @@ FAQ
 
 ### Why do I get `403 Error: Forbidden` when submitting a form?
 You need to add the following hidden input element to your form. This has been
-added in the [pull request #40](https://github.com/sahat/hackathon-starter/pull/40)
+added in the [pull request #40](https://github.com/sahat/riot-express-todo-list/pull/40)
 as part of the CSRF protection.
 
 ```
@@ -898,7 +898,7 @@ parsing websites using [Cheerio](https://github.com/cheeriojs/cheerio), etc.
 <hr>
 
 ### How do I use Socket.io with Hackathon Starter?
-[Dan Stroot](https://github.com/dstroot) submitted an excellent [pull request](https://github.com/dstroot/hackathon-starter/commit/0a632def1ce8da446709d92812423d337c977d75) that adds a real-time dashboard with socket.io.
+[Dan Stroot](https://github.com/dstroot) submitted an excellent [pull request](https://github.com/dstroot/riot-express-todo-list/commit/0a632def1ce8da446709d92812423d337c977d75) that adds a real-time dashboard with socket.io.
 And as  much as I'd like to add it to the project, I think it violates one of the main
 principles of the Hackathon Starter:
 > When I started this project, my primary focus was on simplicity and ease of use.
@@ -1510,7 +1510,7 @@ Be sure to check out the full list of Watson services to forwarder enhance your 
 - [Select or create](https://console.cloud.google.com/project) a Google Cloud Platform Console project
 - [Enable billing](https://support.google.com/cloud/answer/6293499#enable-billing) for your project (there's a $300 free trial)
 - Install and initialize the [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts)
-- Create an `app.yaml` file at the root of your `hackathon-starter` folder with the following contents:
+- Create an `app.yaml` file at the root of your `riot-express-todo-list` folder with the following contents:
 
     ```yaml
     runtime: nodejs
@@ -1519,7 +1519,7 @@ Be sure to check out the full list of Watson services to forwarder enhance your 
       instances: 1
     ```
 - Make sure you've set `MONGODB_URI` in `.env.example`
-- Run the following command to deploy the `hackathon-starter` app:
+- Run the following command to deploy the `riot-express-todo-list` app:
 
     ```bash
     gcloud app deploy
@@ -1529,12 +1529,12 @@ Be sure to check out the full list of Watson services to forwarder enhance your 
 
 Production
 ---------
- If you are starting with this boilerplate to build an application for prod deployment, or if after your hackathon you would like to get your project hardened for production use, see [prod-checklist.md](https://github.com/sahat/hackathon-starter/blob/master/prod-checklist.md).
+ If you are starting with this boilerplate to build an application for prod deployment, or if after your hackathon you would like to get your project hardened for production use, see [prod-checklist.md](https://github.com/sahat/riot-express-todo-list/blob/master/prod-checklist.md).
 
 Changelog
 ---------
 
-You can find the changelog for the project in: [CHANGELOG.md](https://github.com/sahat/hackathon-starter/blob/master/CHANGELOG.md)
+You can find the changelog for the project in: [CHANGELOG.md](https://github.com/sahat/riot-express-todo-list/blob/master/CHANGELOG.md)
 
 
 Contributing

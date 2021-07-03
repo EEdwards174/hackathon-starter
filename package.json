@@ -1,10 +1,10 @@
 {
-  "name": "hackathon-starter",
+  "name": "riot-express-todo-list",
   "version": "6.1.0",
   "description": "A boilerplate for Node.js web applications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/sahat/riot-express-todo-list.git"
   },
   "license": "MIT",
   "author": "Sahat Yalkabov",
